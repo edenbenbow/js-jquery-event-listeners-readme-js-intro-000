@@ -13,7 +13,7 @@ $("img").addClass("tasty");
 }
 
 function pressIt() {
-  $(document).on('keydown', function() {
+  $(document).on('keydown', function(key) {
     if (key.which == 71) {
       alert('G was pressed');
    }
