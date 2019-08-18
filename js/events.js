@@ -20,6 +20,10 @@ function pressIt() {
 }
 )
 }
+
+function submitIt() {
+  
+}
 //define functions here
 
 $(document).ready(function(){
