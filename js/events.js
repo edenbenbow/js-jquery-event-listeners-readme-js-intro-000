@@ -22,9 +22,9 @@ function pressIt() {
 }
 
 function submitIt() {
-  $('form').on('submit', function()) {
+  $('form').on('submit', function() {
     alert('Your form is going to be submitted now.');
-});
+  });
 }
 
 $(document).ready(function(){
